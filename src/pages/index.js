@@ -1,22 +1,13 @@
 import React from "react"
 import { Helmet } from 'react-helmet'
 
-class Application extends React.PureComponent {
-  render () {
-    return (
-        <div className="application">
-            <Helmet>
-                <title>Rian Malik</title>
-            </Helmet>
-            ...
-        </div>
-    )
-  }
-}
-
 export default () => (
 
   <div style={{ margin: `4rem auto`, maxWidth: 460 }}>
+    <Helmet>
+        <title>Rian Malik</title>
+    </Helmet>
+
     {" "}
     
     <h1>Ahoy, fellow hooman!</h1>
