@@ -1,18 +1,15 @@
 import React from "react"
 import { Helmet } from 'react-helmet'
 
-
-const TITLE = 'Rian Malik'
-
-class MyComponent extends React.PureComponent {
+class Application extends React.PureComponent {
   render () {
     return (
-        <>
+        <div className="application">
             <Helmet>
-                <title>{ TITLE }</title>
+                <title>Rian Malik</title>
             </Helmet>
             ...
-        </>
+        </div
     )
   }
 }
