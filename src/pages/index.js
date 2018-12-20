@@ -1,15 +1,9 @@
 import React from "react"
-import { Helmet } from 'react-helmet'
-
-const index = _ =>
-  <div>
-    <Helmet>
-      <title>Rian Malik</title>
-    </Helmet>
-    Comeback later, won't you?
-  </div>
 
 export default () => (
+  <head>
+    <title>Rian Malik</title>
+  </head>
   <div style={{ margin: `4rem auto`, maxWidth: 460 }}>
     {" "}
     
