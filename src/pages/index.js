@@ -1,9 +1,24 @@
 import React from "react"
+import { Helmet } from 'react-helmet'
+
+
+const TITLE = 'Rian Malik'
+
+class MyComponent extends React.PureComponent {
+  render () {
+    return (
+        <>
+            <Helmet>
+                <title>{ TITLE }</title>
+            </Helmet>
+            ...
+        </>
+    )
+  }
+}
 
 export default () => (
-  <head>
-    <title>Rian Malik</title>
-  </head>
+
   <div style={{ margin: `4rem auto`, maxWidth: 460 }}>
     {" "}
     
