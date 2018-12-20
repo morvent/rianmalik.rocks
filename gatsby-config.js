@@ -7,4 +7,10 @@ module.exports = {
             },
         },
     ],
+
+    siteMetadata: {
+        title: `Rian Malik`,
+        siteUrl: `https://www.rianmalik.rocks`,
+        description: `Comeback later, won't you?`,
+      },
 }
