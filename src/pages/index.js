@@ -9,7 +9,7 @@ class Application extends React.PureComponent {
                 <title>Rian Malik</title>
             </Helmet>
             ...
-        </div
+        </div>
     )
   }
 }
